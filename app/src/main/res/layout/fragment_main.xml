@@ -10,20 +10,14 @@
         android:text="@string/app_name"
         android:layout_centerHorizontal="true"
         android:layout_margin="@dimen/activity_horizontal_margin"
-        android:textSize="30sp"/>
+        android:textSize="40sp"/>
 
-    <TextView
-        android:id="@+id/list_users"
-        android:textSize="10sp"
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/username"
+        android:id="@+id/recycler_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username"/>
+        android:scrollbars="vertical">
 
-    <!--<ListView-->
-        <!--android:id="@+id/list_users"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--tools:listitem="@layout/fragment_item"></ListView>-->
-
+    </android.support.v7.widget.RecyclerView>
 </RelativeLayout>

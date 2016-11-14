@@ -1,7 +1,6 @@
 package com.example.fernanda.typicodeapp.model.component;
 
-import com.example.fernanda.typicodeapp.MainActivity;
-import com.example.fernanda.typicodeapp.MainFragment;
+import com.example.fernanda.typicodeapp.ui.MainActivity;
 import com.example.fernanda.typicodeapp.model.module.AppModule;
 import com.example.fernanda.typicodeapp.model.module.NetModule;
 

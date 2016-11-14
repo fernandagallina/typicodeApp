@@ -3,8 +3,8 @@ package com.example.fernanda.typicodeapp.model.component;
 import android.app.Activity;
 
 import com.example.fernanda.typicodeapp.util.CustomScope;
-import com.example.fernanda.typicodeapp.MainFragment;
-import com.example.fernanda.typicodeapp.MainModule;
+import com.example.fernanda.typicodeapp.ui.MainFragment;
+import com.example.fernanda.typicodeapp.model.module.MainModule;
 
 import dagger.Component;
 
