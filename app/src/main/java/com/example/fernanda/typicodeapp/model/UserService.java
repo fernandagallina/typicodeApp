@@ -14,9 +14,4 @@ public interface UserService {
 
     @GET("/users")
     Call<List<User>> users();
-
-    @GET("/users/{id}")
-    Call<User> user(
-      @Path("id") String id
-    );
 }

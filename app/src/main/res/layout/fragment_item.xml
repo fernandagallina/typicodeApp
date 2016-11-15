@@ -3,14 +3,15 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:id="@+id/content_layout">
 
     <TextView
         android:id="@+id/usertitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_gravity="center"
         android:textSize="25sp"
         android:textAlignment="center"

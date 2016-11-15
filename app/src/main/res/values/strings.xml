@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TypicodeApp</string>
+    <string name="users_title">Users</string>
+    <string name="posts">POSTS</string>
+    <string name="comments">COMMENTS</string>
+    <string name="photos">PHOTOS</string>
 </resources>

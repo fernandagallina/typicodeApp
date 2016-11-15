@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_title"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_margin="@dimen/text_margin"
+        android:id="@+id/username"
+        android:textSize="@dimen/label_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_title"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/label_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"/>
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/label_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/label_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website"/>
+</RelativeLayout>

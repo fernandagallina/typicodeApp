@@ -1,8 +1,10 @@
 package com.example.fernanda.typicodeapp.ui;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -18,6 +20,8 @@ import com.example.fernanda.typicodeapp.model.User;
 import com.example.fernanda.typicodeapp.model.component.DaggerMainComponent;
 import com.example.fernanda.typicodeapp.presenter.MainPresenterImpl;
 
+import java.io.Serializable;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -86,6 +90,15 @@ public class MainFragment extends Fragment implements MainView {
         }
 
         adapter = new UserRecyclerViewAdapter(userList);
+        adapter.setUsers(users);
+        adapter.setCallback(new UserRecyclerViewAdapter.Callback() {
+
+            @Override
+            public void onItemClick(User user) {
+
+                ((MainActivity)getActivity()).replaceFragments(user);
+            }
+        });
         recyclerView.setAdapter(adapter);
     }
 

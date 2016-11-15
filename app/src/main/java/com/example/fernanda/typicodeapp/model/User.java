@@ -6,9 +6,9 @@ package com.example.fernanda.typicodeapp.model;
  */
 
 public class User {
+    int id;
     String name, username;
     String email, phone, website;
-    int id;
 
     public User(String name, String username, String email, String phone, String website, int id) {
         this.name = name;
