@@ -14,8 +14,4 @@ public interface UserService {
 
     @GET("/users")
     Call<List<User>> users();
-
-    // To test retrofit
-    @GET("/users/1")
-    Call<User> userTest();
 }
