@@ -24,7 +24,6 @@ import retrofit2.Retrofit;
 
 
 import static org.mockito.Matchers.eq;
-import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.verify;
 
 /**
@@ -35,7 +34,6 @@ import static org.mockito.Mockito.verify;
 @Config(constants = BuildConfig.class, sdk = 21)
 public class MainPresenterTest {
 
-    private static final String A_URL = "http://www.google.com";
     private String USER_LIST = "[\n" +
             "  {\n" +
             "    \"id\": 1,\n" +
