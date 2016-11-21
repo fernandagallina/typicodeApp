@@ -21,6 +21,4 @@ public interface NetComponent {
     Retrofit retrofit();
 
     void inject(MainActivity activity);
-
-//    void inject(MainFragment fragment);
 }
