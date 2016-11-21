@@ -78,21 +78,7 @@ public class UserRecyclerViewAdapter extends RecyclerView.Adapter<UserRecyclerVi
         public UserHolders(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
-            // For some reason, BindView is not working
-//            contentLayout = itemView.findViewById(R.id.content_layout);
-//            textView = (TextView) itemView.findViewById(R.id.usertitle);
-//        itemView.setOnClickListener(this);
         }
-
-
-
-
-//    @Override
-//    public void onClick(View v) {
-//        Toast.makeText(v.getContext(),
-//                textView.getText(), Toast.LENGTH_SHORT)
-//                .show();
-//    }
     }
 
 

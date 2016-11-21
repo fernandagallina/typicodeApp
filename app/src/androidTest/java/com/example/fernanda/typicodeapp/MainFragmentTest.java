@@ -31,7 +31,6 @@ public class MainFragmentTest {
 
     @Before
     public void setUp() {
-//        main.launchActivity(null);
     }
 
     @Test

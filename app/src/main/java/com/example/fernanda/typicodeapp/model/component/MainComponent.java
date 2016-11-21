@@ -13,7 +13,7 @@ import dagger.Component;
  */
 
 @CustomScope
-@Component(dependencies = NetComponent.class, modules = MainModule.class) //dependencies = NetComponent.class,
+@Component(dependencies = NetComponent.class, modules = MainModule.class)
 public interface MainComponent {
 
     void inject(MainFragment fragment);
