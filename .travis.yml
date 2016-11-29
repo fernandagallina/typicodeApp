@@ -1,4 +1,6 @@
 language: android
+
+sudo: true
 android:
   components:
     - platform-tools
