@@ -2,6 +2,8 @@ language: android
 jdk: oraclejdk8
 sudo: false
 android:
+  before_install:
+    - chmod +x gradlew
   components:
     - tools
     - platform-tools
